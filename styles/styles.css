@@ -1,0 +1,93 @@
+/* Global */
+* {
+  margin: 0;
+	padding: 0;
+	border: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, ul, li, p, span {
+  font-family: 'Roboto Mono', monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* Header */
+.header__content {
+  background: linear-gradient(50deg, #5D35B5, #C067D1);
+}
+
+.header__content nav {
+  width: 1024px;
+  height: 104px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__content nav img {
+  width: 114px;
+  height: 40px;
+}
+
+
+.header__items {
+  display: flex;
+  gap: 5rem;
+}
+
+.header__items li {
+  color: #fff;
+  font-size: 18px;
+  list-style-type: none;
+  font-weight: 700;
+}
+
+/* section future drones */
+.section__future {
+  background: no-repeat 50% #212121 url('https://1.bp.blogspot.com/-eM6p_6L76ME/YNFx8PFY-wI/AAAAAAABBgw/ZUBwknVFWacykbqaYjqniEkK8VUKKJASACLcBGAsYHQ/s2560/Estrada%2Bna%2BFloresta%2BHD%2BWallpaper.jpg');
+  margin: 0 auto;
+}
+
+.section__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5rem;
+
+  height: 60vh;
+}
+
+.section__content h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+  margin: 1rem 0;
+}
+
+.quote {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 2.6rem;
+}
+
+.btn__buy {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+
+  background: #C167D1;
+  padding: 1rem;
+  border-radius: 4px;
+  width: 200px
+}
