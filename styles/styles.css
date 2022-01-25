@@ -1,4 +1,6 @@
 /* Global */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap');
+
 * {
   margin: 0;
 	padding: 0;
@@ -21,7 +23,8 @@ a {
 }
 
 .header__content nav {
-  width: 1024px;
+  width: 100%;
+  max-width: 1024px;
   height: 104px;
   margin: 0 auto;
 
@@ -52,6 +55,7 @@ a {
 /* section future drones */
 .section__future {
   background: no-repeat 50% url('https://1.bp.blogspot.com/-eM6p_6L76ME/YNFx8PFY-wI/AAAAAAABBgw/ZUBwknVFWacykbqaYjqniEkK8VUKKJASACLcBGAsYHQ/s2560/Estrada%2Bna%2BFloresta%2BHD%2BWallpaper.jpg');
+  background-size: cover;
   margin: 0 auto;
 }
 
@@ -96,4 +100,52 @@ a {
 
 .btn__buy:hover {
   opacity: 1;
+}
+
+/* section nossos drones */
+
+.section__drone {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.section__drone h3 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #703EBB;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+
+.cards__content {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 6rem;
+  gap: 4rem;
+}
+
+.card__title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #703EBB;
+  margin-bottom: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.card__title img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 1.6rem
+}
+
+.card__text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #6A6A6A;  
+  text-align: center;
 }
